@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: overlay;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.top {
+  margin-top: 5rem;
+}
+
+.bottom {
+  margin-bottom: 5rem;
+}
+
+.border-top,
+.border-bottom {
+  border-width: 5px !important;
+}
+
+.background {
+  background-repeat: repeat-x !important;
+  height: 70%;
+  margin-top: 100px;
+}
+
+.background2 {
+  height: 66% !important;
+}
+
+h4 {
+  color: #343a40;
+}
+
+form {
+  font-family: "Roboto", sans-serif !important;
+}
+
+form p {
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .call {
+    float: left !important;
+  }
+  .call-img {
+    width: 65% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .call-img {
+    width: 15% !important;
+    margin-top: -60px;
+  }
+}

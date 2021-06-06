@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Top Of Page -->
+    <section class="top bg-dark p-5 border-top border-danger">
+        <div class="container"></div>
+    </section>
+
+    <!-- Middle Of Page -->
+    <section class="middle">
+        <img src="img/background.jpg" alt="Background" class="img-fluid background w-100 position-absolute">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 bg-white px-5 py-4">
+                    <!-- Info Section -->
+                    <div class="row">
+                        <div class="col-xl-6 col-md-12">
+                            <img src="img/logo.jpg" alt="Logo">
+                        </div>
+                        <div class="col-xl-4 col-md-8">
+                            <h4 class="font-weight-bold float-right pt-4 call">444 25 26</h4>
+                        </div>
+                        <div class="col-xl-2 col-md-4">
+                            <img src="img/call.png" alt="Call" class="img-fluid w-100 float-right pt-3 call-img">
+                        </div>
+                    </div>
+                    <!-- Form Section -->
+                    <form action="#" class="py-5">
+                        <div class="form-group">
+                            <label for="userName">Kullanıcı Adı</label>
+                            <input type="email" name="email" id="userName" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="passwordIn">Şifre</label>
+                            <input type="password" name="password" id="passwordIn" class="form-control">
+                        </div>
+                        <button type="submit" class="btn btn-danger btn-block mt-5">Giriş</button>
+                    </form>
+                    <!-- Membership Section -->
+                    <div class="row text-center">
+                        <div class="col-md-12 mb-3">
+                            <a href="newUser.html" class="text-decoration-none text-dark">Yeni kullanıcı talep etmek için tıklayınız...</a>
+                        </div>
+                        <div class="col-md-12 mb-5">
+                            <a href="forgotPassword.html" class="text-decoration-none text-dark">Şifrenizi mi Unuttunuz?</a>
+                        </div>
+                        <div class="col-md-12 mb-3">
+                            <img src="img/download.png" alt="Download">
+                        </div>
+                        <div class="col-md-12 text-left px-5">
+                            <a href="javascript:openPdfPopUp ('ajansarfmalzemeKullanimi.pdf');"
+                                class="text-decoration-none">Sarf malzeme Kullanım Aralıkları Listesini bilgisayarınıza indirmek için tıklayınız.</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bottom Of Page -->
+    <section class="bottom bg-dark p-5 border-bottom border-danger">
+        <div class="container"></div>
+    </section>
+
+    <!-- JavaScript Files -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/open-pdf.js"></script>
+
+</body>
+
+</html>
